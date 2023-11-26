@@ -11,38 +11,17 @@ Este teste técnico tem como objetivo avaliar seu conhecimento em React, bem com
   - [HTML e CSS](https://www.w3schools.com/)
   - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
   - [React](https://react.dev/)
+  - [localStorage](https://developer.mozilla.org/pt-BR/docs/Web/API/Window/localStorage)
 
-## Questões e Tarefas
+## Questão Extra
 
-### Questão 1:
+### Questão:
 
-Crie um botão vermelho com as bordas arredondadas que exiba "Clique-me!"
-como texto. Ao clicar no botão, um alerta deve ser disparado avisando que
-o botão foi clicado.
+Crie um to-do app que adiciona e remove itens de uma lista.
+O app deve ter um pequeno formulário e um botão azul para adicionar itens.
+Cada item deve ter um botão para removê-lo.
+Deve existir também um botão verde para zerar a lista.
+Todos os botões precisam ser redondos e ficarem quadrados quando o mouse estiver sobre eles.
+A lista deve ser salva no `localStorage`.
 
-**Arquivo:** [Questão 1](./src/app/questoes/1/page.jsx)
-
-### Questão 2:
-
-Crie um contador inicializado em 0. A tela deve exibir dois botões: um
-para incrementar o contador e outro para decrementar o contador. Ao
-carregar a tela, o contador deve ser atualizado para 10. Implemente a
-lógica para atualizar o contador quando a tela for carregada e a lógica
-para atualizar o contador quando os botões forem clicados.
-
-**Arquivo:** [Questão 2](./src/app/questoes/2/page.jsx)
-
-### Questão 3:
-
-Escreva uma função JavaScript que recebe uma matriz de números inteiros
-e retorna a soma de todos os números pares. Exiba a soma na tela.
-
-**Arquivo:** [Questão 3](./src/app/questoes/3/page.jsx)
-
-### Questão 4:
-
-Crie um componente chamado `ProductList` que recebe uma matriz de
-objetos de produto e renderiza uma lista de produtos. Cada produto deve
-exibir seu nome e preço.
-
-**Arquivo:** [Questão 4](./src/app/questoes/4/page.jsx)
+**Arquivo:** [Questão Extra](./src/app/questao/extra/page.jsx)
