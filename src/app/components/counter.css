@@ -1,0 +1,19 @@
+.button-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.counter-p{
+  text-align: center;
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+
+button{
+  display: inline-block;
+  align-items: center;
+  padding: 15px 20px;  
+  margin: 0 5px;
+  align-items: center;
+}

@@ -1,5 +1,38 @@
-export default function Questao2() {
+"use client";
+import { useState } from 'react';
+import styles from "@/app/components/counter.css";
+
+
+const Counter = ({value, setValue}) => {  
+  const ButtonIncrease = () => {
+    return (<button className="plus-button" onClick={() => setValue(value + 1)}> 
+    +
+    </button>
+    )
+  }  
+
+  const ButtonDecrease = () => {
+    return (<button className="minus-button" onClick={() => setValue(value - 1)}> 
+    -
+    </button>
+    )    
+  }
+
   return (
+    <>      
+      <p className='counter-p'>{value}</p>
+      <div className="button-wrapper">
+      <ButtonDecrease />
+      <ButtonIncrease />
+      </div>
+    </>
+  );
+}
+
+export default function Questao2() {
+  const [value, setValue] = useState(10);
+  
+  return ( 
     <>
       <h1>Questão 2</h1>
       <p>
@@ -9,6 +42,8 @@ export default function Questao2() {
         lógica para atualizar o contador quando a tela for carregada e a lógica
         para atualizar o contador quando os botões forem clicados.
       </p>
+
+      <Counter value={value} setValue={setValue} />
     </>
   );
 }
